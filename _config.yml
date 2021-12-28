@@ -15,12 +15,12 @@
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Young Min 개발일지 블로그"
+locale                   : "ko-KR"
+title                    : "Young Min 개발포트폴리오 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Song Young Min"
-description              : "개발 일지"
+description              : "포트폴리오"
 url                      : "https://youngmin0628.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -288,4 +288,10 @@ defaults:
       comments: true
       share: true
       related: true
-      
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true      
