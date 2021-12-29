@@ -105,7 +105,7 @@ last_modified_at: 2021-12-29
 
 ![image](https://user-images.githubusercontent.com/56810348/147638075-c2f34c8e-c566-4a5c-a3f3-46f4b7f1dc9d.png)
 
-- 방금 생선한 서버를 클릭 후 (Start the server) 동영상 재생버튼처럼 생긴 거 클릭
+- 방금 생성한 서버를 클릭 후 (Start the server) 동영상 재생버튼처럼 생긴 거 클릭
 
 
 ![image](https://user-images.githubusercontent.com/56810348/147638151-dd93a39d-9a4e-4579-a9e2-279bb33ed24e.png)
