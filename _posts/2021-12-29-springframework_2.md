@@ -65,7 +65,7 @@ last_modified_at: 2021-12-29
 
 ![image](https://user-images.githubusercontent.com/56810348/147631735-7b5e27bd-39f7-4c84-a290-a545d925da42.png)
 
-- 나뭇잎모양이 생긴다.
+- 우측 상단에 나뭇잎모양이 생긴다.
 
 
 기본적인 셋팅은 끝이 난것같다. 다음 글에서는 프로젝트를 생성하고 서버를 설치하여 구동시켜보겠다.
