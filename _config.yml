@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Young Min 개발포트폴리오 블로그"
+title                    : "Young Min 개발포트폴리오"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Song Young Min"
@@ -179,8 +179,8 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+ # - /docs # ignore Minimal Mistakes /docs
+ # - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
