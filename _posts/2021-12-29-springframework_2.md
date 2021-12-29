@@ -32,4 +32,4 @@ last_modified_at: 2021-12-29
 
 ![image](https://user-images.githubusercontent.com/56810348/147621663-b730dc47-c4c0-4ee4-b05c-8568e6de435c.png)
 
-- Finish를 누른 후 설치가 완료되면 이클립스를 재시작해준다.
+- Finish
