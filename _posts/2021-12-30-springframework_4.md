@@ -67,6 +67,8 @@ last_modified_at: 2021-12-30
 
 ``` xml
 
+- MySQL 연결을 위한 JDBC도 pom에 적어줍니다. (dependencies 안에 적어야합니다. 위치 잘 보세요.)
+
 <!--MySQL JDBC -->
 		<dependency>
 		    <groupId>mysql</groupId>
@@ -104,8 +106,6 @@ last_modified_at: 2021-12-30
 		</dependency>
 
 ```
-
-- MySQL 연결을 위한 JDBC도 pom에 적어줍니다. (dependencies 안에 적어야합니다. 위치 잘 보세요.)
 
 
 ![image](https://user-images.githubusercontent.com/56810348/147733755-be31f0fa-7b5d-4ff5-9b73-16fe7ee7e3c3.png)
@@ -253,3 +253,4 @@ public class TestDBConnect {
 ![image](https://user-images.githubusercontent.com/56810348/147736537-ce95fd6b-58ee-413f-a617-c9bf32d9bfe9.png)
 
 - 콘솔에 에러없이 정상적으로 출력되면 성공이다.
+
