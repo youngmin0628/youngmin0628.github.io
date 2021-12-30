@@ -1,5 +1,5 @@
 ---
-title:  "Spring Framework(2) - Spring Framework 환경셋팅"
+title:  "Spring Framework(2) - Spring Framework 기본셋팅"
 
 categories:
   - Spring Framework
@@ -11,7 +11,7 @@ date: 2021-12-29
 last_modified_at: 2021-12-29
 ---
 
-<h1>Spring Framework 환경셋팅</h1>
+<h1>Spring Framework 기본셋팅</h1>
 
 
 <h2>1. Spring Framework 플러그인 설치</h2>
