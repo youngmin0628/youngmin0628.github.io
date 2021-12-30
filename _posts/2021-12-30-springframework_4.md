@@ -43,4 +43,4 @@ last_modified_at: 2021-12-30
 
 ![image](https://user-images.githubusercontent.com/56810348/147713858-98506db8-7f35-4bb5-9e60-c72d3e3cab3b.png)
 
-- 설치완료!
+- Finish 설치완료!
