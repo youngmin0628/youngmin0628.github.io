@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Young Min 개발포트폴리오"
+title                    : "Young Min 개발"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Song Young Min"
