@@ -225,19 +225,19 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class TestDBConnect {
 
 	@Inject
-    private DataSource dataSource;
+	private DataSource dataSource;
 	
 	@Test
 	public void test() {
 		try  
 		{
-			Connection con = dataSource.getConnection();
-			System.out.println("***** 연결정보 : " + con + " *****");
-        } 
+		Connection con = dataSource.getConnection();
+		System.out.println("***** 연결정보 : " + con + " *****");
+		} 
 		catch (Exception e) 
 		{
-            e.printStackTrace();
-        }
+		e.printStackTrace();
+		}
 	}
 }
 
