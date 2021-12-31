@@ -257,7 +257,6 @@ public class TestDBConnect {
 
 ![image](https://user-images.githubusercontent.com/56810348/147798960-0cf77a53-c188-4c51-a683-95e6aca6cf43.png)
 
-- web.xml에
 
 ```xml
 
@@ -319,4 +318,4 @@ public class TestDBConnect {
 
 ```
 
-- 그대로 복사해서 붙여넣어주면 web.xml 설정은 끝!
+- web.xml에 그대로 복사해서 붙여넣어주면 web.xml 설정은 끝!
