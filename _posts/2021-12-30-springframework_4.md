@@ -318,4 +318,4 @@ public class TestDBConnect {
 
 ```
 
-- web.xml에 그대로 복사해서 붙여넣어주면 web.xml 설정은 끝!
+- web.xml에 그대로 복사해서 붙여넣어주면 끝!
