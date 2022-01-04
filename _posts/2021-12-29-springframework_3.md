@@ -1,5 +1,5 @@
 ---
-title:  "Spring Framework(3) - 프로젝트 생성 및 서버 구동"
+title:  "Spring Framework - 프로젝트 생성 및 서버 구동"
 
 categories:
   - Spring Framework

@@ -1,5 +1,5 @@
 ---
-title:  "Spring Framework(1) -  JDK, Eclipse 설치"
+title:  "Spring Framework -  JDK, Eclipse 설치"
 
 categories:
   - Spring Framework

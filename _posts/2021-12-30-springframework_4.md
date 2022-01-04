@@ -1,5 +1,5 @@
 ---
-title:  "Spring Framework(4) - 시작 전 마지막 셋팅(DB연결, pom.xml, web.xml)"
+title:  "Spring Framework - 시작 전 마지막 셋팅(DB연결, pom.xml, web.xml)"
 
 categories:
   - Spring Framework

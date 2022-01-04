@@ -1,5 +1,5 @@
 ---
-title:  "Spring Framework(2) - Spring Framework 기본셋팅"
+title:  "Spring Framework - Spring Framework 기본셋팅"
 
 categories:
   - Spring Framework
