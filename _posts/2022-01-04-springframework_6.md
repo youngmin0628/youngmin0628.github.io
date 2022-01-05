@@ -152,7 +152,7 @@ public class MainController {
 </html>
 
 ```
-
+- JQuery cdn을 추가해줌.
 - server.xml 에서 설정한 path경로 + 이미지 파일이름 + 확장자를 경로에 적어줌.
 
 
