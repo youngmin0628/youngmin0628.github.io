@@ -30,12 +30,12 @@ last_modified_at: 2021-12-29
 
 [![image](https://user-images.githubusercontent.com/56810348/147632368-12740cd3-1aab-42b9-a683-6a76e493b241.png)](https://user-images.githubusercontent.com/56810348/147632368-12740cd3-1aab-42b9-a683-6a76e493b241.png)
 
-- @@@@@.@@@@@.@@@@@ 식으로 입력해준다.
+- @@@@@.@@@@@.@@@@@ 식으로 입력해줌.
 
 
 [![image](https://user-images.githubusercontent.com/56810348/147632725-838f1a65-bb4a-4b9f-8e9c-f925712749ee.png)](https://user-images.githubusercontent.com/56810348/147632725-838f1a65-bb4a-4b9f-8e9c-f925712749ee.png)
 
-- 프로젝트가 생성되었다.
+- 프로젝트가 생성되었음.
 
 
 [![image](https://user-images.githubusercontent.com/56810348/147632886-69df7274-0ebe-4101-844a-3729c024b1b0.png)](https://user-images.githubusercontent.com/56810348/147632886-69df7274-0ebe-4101-844a-3729c024b1b0.png)
@@ -70,12 +70,12 @@ last_modified_at: 2021-12-29
 [![image](https://user-images.githubusercontent.com/56810348/147637238-a97eebb0-9bd7-4bbf-b47b-74cfa58c4496.png)](https://user-images.githubusercontent.com/56810348/147637238-a97eebb0-9bd7-4bbf-b47b-74cfa58c4496.png)
 
 
-- 그대로 Next 쭈욱~ 하고 마지막 Install 버튼을 클릭하면 설치가 완료된다.
+- 그대로 Next 쭈욱~ 하고 마지막 Install 버튼을 클릭하면 설치가 완료됨.
 
 
 [![image](https://user-images.githubusercontent.com/56810348/147637617-e62453ba-d08c-451b-8731-190cc0106e3a.png)](https://user-images.githubusercontent.com/56810348/147637617-e62453ba-d08c-451b-8731-190cc0106e3a.png)
 
-- C:\Program Files\Apache Software Foundation 에 잘 설치가 되어있다.
+- C:\Program Files\Apache Software Foundation 에 잘 설치가 됨.
 
 
 [![image](https://user-images.githubusercontent.com/56810348/147634703-aaa2e329-69f4-4909-b470-58d2c62dd569.png)](https://user-images.githubusercontent.com/56810348/147634703-aaa2e329-69f4-4909-b470-58d2c62dd569.png)
@@ -110,13 +110,13 @@ last_modified_at: 2021-12-29
 
 [![image](https://user-images.githubusercontent.com/56810348/147638151-dd93a39d-9a4e-4579-a9e2-279bb33ed24e.png)](https://user-images.githubusercontent.com/56810348/147638151-dd93a39d-9a4e-4579-a9e2-279bb33ed24e.png)
 
-- 이러한 에러창이 나온다면 Port설정을 바꿔줘야한다.
+- 이러한 에러창이 나온다면 Port설정을 바꿔줘야함.
 - 아래를 따라해보자.
 
 
 [![image](https://user-images.githubusercontent.com/56810348/147635364-ce8ecde9-ef9e-441f-adb3-e490ae1c540f.png)](https://user-images.githubusercontent.com/56810348/147635364-ce8ecde9-ef9e-441f-adb3-e490ae1c540f.png)
 
-- 저 부분을 더블클릭하면 Tomcat Ports를 설정할 수 있는 부분이 나온다.
+- 저 부분을 더블클릭하면 Tomcat Ports를 설정할 수 있는 부분이 나옴.
 
 
 [![image](https://user-images.githubusercontent.com/56810348/147635447-51c6e71d-9fa8-437c-bfea-ebebe8ee8d0b.png)](https://user-images.githubusercontent.com/56810348/147635447-51c6e71d-9fa8-437c-bfea-ebebe8ee8d0b.png)
@@ -126,8 +126,8 @@ last_modified_at: 2021-12-29
 
 [![image](https://user-images.githubusercontent.com/56810348/147638265-1c4b3d01-b6f1-4e77-ad9d-5c6632212c93.png)](https://user-images.githubusercontent.com/56810348/147638265-1c4b3d01-b6f1-4e77-ad9d-5c6632212c93.png)
 
-- Tomcat admin port 를 편하게 바꿔준다 저는 8089로 해줬다.
-- 그 아래에 HTTP/1.1 도 8088로 바꿔줬다.(Port가 겹치면 서버가 실행되지않는다.)
+- Tomcat admin port 를 편하게 바꿔준다 저는 8089로 해줬음.
+- 그 아래에 HTTP/1.1 도 8088로 바꿔줬음.(Port가 겹치면 서버가 실행되지않음.)
 
 
 [![image](https://user-images.githubusercontent.com/56810348/147639844-fd164462-6b49-4016-afbd-9705602610ee.png)](https://user-images.githubusercontent.com/56810348/147639844-fd164462-6b49-4016-afbd-9705602610ee.png)
