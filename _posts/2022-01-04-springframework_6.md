@@ -36,5 +36,7 @@ last_modified_at: 2022-01-04
 
 [![image](https://user-images.githubusercontent.com/56810348/148032821-c475fa12-a485-434b-8d0c-8e552033f85a.png)](https://user-images.githubusercontent.com/56810348/148032821-c475fa12-a485-434b-8d0c-8e552033f85a.png)
 
-- 3곳의 경로를 상대경로로 바꿔준다. (../resources 추가해주면 됩니다.)
+- 3곳의 경로를 상대경로로 바꿔준다. (../resources 추가해주면 된다.)
   - ex) href="/assets/favicon.ico" -> href="../resources/assets/favicon.ico"
+
+
