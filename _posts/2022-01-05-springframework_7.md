@@ -208,6 +208,21 @@ public class MenuDAO {
 
 - menuList 기능도 아직 개발중이라 저대로만 하고 일단 냅둠.
 
+```sql
+
+CREATE TABLE `tb_user` (
+  `seq` int NOT NULL AUTO_INCREMENT COMMENT '일련번호',
+  `user_id` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL COMMENT '사용자 ID',
+  `user_pw` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL COMMENT '사용자 패스워드',
+  `reg_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT '가입일자',
+  `delete_at` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT 'N' COMMENT '삭제여부',
+  `del_date` timestamp NULL DEFAULT NULL COMMENT '삭제일자',
+  PRIMARY KEY (`seq`)
+);
+
+```
+
+- 테이블을 먼저 생성해줌.
 
 **UserController**
 
