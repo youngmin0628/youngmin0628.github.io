@@ -571,6 +571,9 @@ public class UserDAO {
 
 ```
 
+[![image](https://user-images.githubusercontent.com/56810348/149426312-5b4acebf-aa81-49b2-be5f-76959402a928.png)](https://user-images.githubusercontent.com/56810348/149426312-5b4acebf-aa81-49b2-be5f-76959402a928.png)
+
+
 **userSignUp.jsp**
 
 ```html
@@ -669,6 +672,9 @@ public class UserDAO {
 	<%@ include file="/WEB-INF/include/footer.jsp" %>
 
 ```
+
+[![image](https://user-images.githubusercontent.com/56810348/149426371-a784d5df-bc6d-4e81-af33-61b9a7f4e6b4.png)](https://user-images.githubusercontent.com/56810348/149426371-a784d5df-bc6d-4e81-af33-61b9a7f4e6b4.png)
+
 
 **userSignIn.jsp**
 
