@@ -194,12 +194,11 @@ public class MenuDAO {
 	<!-- 메뉴 리스트 SELECT -->
 	<select id="getMenuList" resultType="map">
 		SELECT
-			menu_id,
-			menu_nm,
-			menu_cl,
+			rstrnt_id,
 			rstrnt_nm,
+			rstrnt_cl,
 			rstrnt_lc
-		FROM tb_menu
+		FROM tb_rstrnt
 	</select>
 
 </mapper>
