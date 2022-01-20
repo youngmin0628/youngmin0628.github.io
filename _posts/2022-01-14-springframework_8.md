@@ -922,7 +922,36 @@ view쪽 작성 전 Kakao Developers에 가입을 해준다.
 					var dataList = data.resultList;
 					var html = "";
 					
-					for(var i = 0; i < dataList.length; i++) {
+					if(dataList != '' && dataList != null) {
+						for(var i = 0; i < dataList.length; i++) {
+							html =  '<div class="row">';
+							html += 	'<div class="container py-5 h-100">';
+							html += 		'<div class="row d-flex justify-content-center align-items-center h-100">';
+							html += 			'<div class="col-md-6 col-xl-5">';
+							html += 				'<div class="card text-white" style="background-color: #1f959b; border-radius: 15px;">';
+							html += 					'<div class="card-body p-5">';
+							html += 						'<i class="fas fa-utensils fa-2x mb-4"></i>';
+							html += 						'<p class="lead">' + dataList[i].rstrnt_nm + '</p><hr>';
+							html += 						'<div class="d-flex justify-content-between">';
+							html += 							'<p class="mb-0">' + dataList[i].rstrnt_cl + '</p>';
+							html += 							'<h6 class="mb-0">';
+							html += 								'<span class="badge rounded-pill" style="background-color: rgba(0,0,0, 0.2);">' + dataList[i].vote_cnt + '</span>';
+							html += 								'<i class="fas fa-heart ms-2"></i>';
+							html += 							'</h6>';
+							html += 						'</div>';
+							html += 						'<div class="d-flex justify-content-between">';
+							html += 							'<p class="mb-0">' + dataList[i].rstrnt_lc + '</p>';
+							html += 						'</div>';
+							html += 					'</div>';
+							html += 				'</div>';
+							html += 			'</div>';
+							html += 		'</div>';
+							html += 	'</div>';
+							html += '</div>';
+							
+							$("#menuVoteList").append(html);
+						}
+					} else {
 						html =  '<div class="row">';
 						html += 	'<div class="container py-5 h-100">';
 						html += 		'<div class="row d-flex justify-content-center align-items-center h-100">';
@@ -930,16 +959,16 @@ view쪽 작성 전 Kakao Developers에 가입을 해준다.
 						html += 				'<div class="card text-white" style="background-color: #1f959b; border-radius: 15px;">';
 						html += 					'<div class="card-body p-5">';
 						html += 						'<i class="fas fa-utensils fa-2x mb-4"></i>';
-						html += 						'<p class="lead">' + dataList[i].rstrnt_nm + '</p><hr>';
+						html += 						'<p class="lead">금일 결과가 없습니다.</p><hr>';
 						html += 						'<div class="d-flex justify-content-between">';
-						html += 							'<p class="mb-0">' + dataList[i].rstrnt_cl + '</p>';
+						html += 							'<p class="mb-0"></p>';
 						html += 							'<h6 class="mb-0">';
-						html += 								'<span class="badge rounded-pill" style="background-color: rgba(0,0,0, 0.2);">' + dataList[i].vote_cnt + '</span>';
+						html += 								'<span class="badge rounded-pill" style="background-color: rgba(0,0,0, 0.2);"></span>';
 						html += 								'<i class="fas fa-heart ms-2"></i>';
 						html += 							'</h6>';
 						html += 						'</div>';
 						html += 						'<div class="d-flex justify-content-between">';
-						html += 							'<p class="mb-0">' + dataList[i].rstrnt_lc + '</p>';
+						html += 							'<p class="mb-0"></p>';
 						html += 						'</div>';
 						html += 					'</div>';
 						html += 				'</div>';
