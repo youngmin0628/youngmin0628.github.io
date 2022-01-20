@@ -39,7 +39,7 @@ last_modified_at: 2022-01-19
 ```sql
 
 CREATE TABLE `tb_menu_rec` (
-  `rec_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '추천날짜',
+  `rec_date` date NOT NULL COMMENT '추천날짜',
   `rec_user` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL COMMENT '추천자',
   `rec_id` varchar(100) DEFAULT NULL COMMENT '메뉴ID',
   PRIMARY KEY (`rec_date`,`rec_user`)
@@ -363,11 +363,13 @@ public class MenuDAO {
 		INSERT INTO 
 			tb_menu_rec
 			(
+				rec_date,
 				rec_user,
 				rec_id
 			)
 		VALUES
 			(
+				now(),
 				#{rec_user},
 				#{rec_id}
 			)
@@ -378,7 +380,7 @@ public class MenuDAO {
 		FROM tb_menu_rec
 		WHERE 1=1
 		AND   rec_user = #{rec_user}
-		AND   DATE_FORMAT(rec_date,'%Y-%m-%d') = DATE_FORMAT(now(),'%Y-%m-%d')
+		AND   rec_date = CURDATE()
 	</select>
 	
 	<select id="getVoteMenuList" resultType="map">
@@ -390,6 +392,7 @@ public class MenuDAO {
 		FROM tb_rstrnt tr 
 		INNER JOIN tb_menu_rec tmr 
 		ON tr.rstrnt_id = tmr.rec_id
+		WHERE tmr.rec_date = CURDATE()
 		GROUP BY tr.rstrnt_id
 		ORDER BY vote_cnt DESC
 	</select>
