@@ -41,8 +41,7 @@ last_modified_at: 2022-01-19
 CREATE TABLE `tb_menu_rec` (
   `rec_date` date NOT NULL COMMENT '추천날짜',
   `rec_user` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL COMMENT '추천자',
-  `rec_id` varchar(100) DEFAULT NULL COMMENT '메뉴ID',
-  `today_at` varchar(4) DEFAULT 'N' COMMENT '금일마감여부',
+  `rec_id` varchar(100) DEFAULT NULL COMMENT '메뉴ID'
   PRIMARY KEY (`rec_date`,`rec_user`)
 );
 
