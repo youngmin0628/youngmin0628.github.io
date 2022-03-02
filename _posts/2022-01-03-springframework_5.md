@@ -92,11 +92,12 @@ last_modified_at: 2022-01-03
 ```sql
 
 CREATE TABLE `tb_rstrnt` (
-  `menu_id` int NOT NULL AUTO_INCREMENT COMMENT '식당고유번호',
+  `rstrnt_id` int NOT NULL AUTO_INCREMENT COMMENT '식당고유번호',
   `rstrnt_nm` varchar(100) DEFAULT NULL COMMENT '식당이름',
   `rstrnt_cl` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL COMMENT '식당분류',
   `rstrnt_lc` varchar(100) DEFAULT NULL COMMENT '식당위치',
-  PRIMARY KEY (`menu_id`)
+  `kakao_map_id` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL COMMENT '카카오맵 장소 ID',
+  PRIMARY KEY (`rstrnt_id`)
 )
 
 ```
