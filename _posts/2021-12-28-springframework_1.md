@@ -60,5 +60,5 @@ last_modified_at: 2021-12-29
 
 [![image](https://user-images.githubusercontent.com/56810348/147620581-6a37b66d-31f7-4be0-817e-6ca83c51bb67.png)](https://user-images.githubusercontent.com/56810348/147620581-6a37b66d-31f7-4be0-817e-6ca83c51bb67.png)
 
-설치가 완료되었다. 다음 글에서는 Spring Framework를 설치했음.
+설치가 완료되었다. 다음 글에서는 Spring Framework를 설치하겠음.
 
