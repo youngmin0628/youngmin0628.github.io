@@ -1,5 +1,5 @@
 ---
-title:  "Spring Boot - 웹프로젝트 제작(1)"
+title:  "Spring Boot - 웹프로젝트 제작(1) - 설치"
 
 categories:
   - Spring Boot

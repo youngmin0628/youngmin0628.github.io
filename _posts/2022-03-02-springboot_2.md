@@ -1,5 +1,5 @@
 ---
-title:  "Spring Boot - 웹프로젝트 제작(2)"
+title:  "Spring Boot - 웹프로젝트 제작(2) - DB연결까지"
 
 categories:
   - Spring Boot
@@ -558,7 +558,7 @@ public interface MainMapper {
 
 CREATE TABLE `tb_lotto_list` (
   `result_dt` date NOT NULL COMMENT '추첨일',
-  `result_round` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL COMMENT '추첨 회차',
+  `result_round` int DEFAULT NULL COMMENT '추첨 회차',
   `lottery_no1` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL COMMENT '첫번째 추첨번호',
   `lottery_no2` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL COMMENT '두번째 추첨번호',
   `lottery_no3` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL COMMENT '세번째 추첨번호',
