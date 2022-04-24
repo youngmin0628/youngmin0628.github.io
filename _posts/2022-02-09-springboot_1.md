@@ -82,7 +82,7 @@ last_modified_at: 2022-02-09
 ```properties
 
 server.port=8082
-spring.mvc.view.prefix=/WEB-INF/
+spring.mvc.view.prefix=/WEB-INF/view
 spring.mvc.view.suffix=.jsp
 
 ```
